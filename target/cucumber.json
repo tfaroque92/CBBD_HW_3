@@ -1,0 +1,360 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-12T18:54:27.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7572537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with valid email and password",
+        "description": "",
+        "id": "login-feature;user-should-be-able-to-login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 111689000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user in TalentTEK Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enter valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should be able to successfully login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-12T18:54:35.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2134778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should not be able to login with valid email and invalid password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 108316000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user in TalentTEK Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user enter invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user should be able see \"You have entered an incorrect email or student Id.\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@hb"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-12T18:54:37.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2112297000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should not be able to login with invalid email and valid password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-invalid-email-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 110570000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user in TalentTEK Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user enter invalid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enter valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should be able see \"You have entered an incorrect email or student\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-12T18:54:40.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2101916000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should not be able to login with invalid email and password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-invalid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 107135000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "user in TalentTEK Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enter invalid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enter invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user should be able see \"You have entered an incorrect email or student Id.\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.697 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["User should be able to login with valid email and password", "Optional[Login Feature]"](1)  Time elapsed: 7.754 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user in TalentTEK Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user in TalentTEK Homepage")
+public void user_in_talent_tek_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter valid email address")
+public void user_enter_valid_email_address() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter valid password")
+public void user_enter_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on Log In button")
+public void user_clicks_on_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be able to successfully login")
+public void user_should_be_able_to_successfully_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+TestRunner.runScenario["User should not be able to login with valid email and invalid password", "Optional[Login Feature]"](2)  Time elapsed: 2.245 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user in TalentTEK Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user in TalentTEK Homepage")
+public void user_in_talent_tek_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter valid email address")
+public void user_enter_valid_email_address() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter invalid password")
+public void user_enter_invalid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on Log In button")
+public void user_clicks_on_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be able see {string}")
+public void user_should_be_able_see(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+TestRunner.runScenario["User should not be able to login with invalid email and valid password", "Optional[Login Feature]"](3)  Time elapsed: 2.221 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user in TalentTEK Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user in TalentTEK Homepage")
+public void user_in_talent_tek_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter invalid email address")
+public void user_enter_invalid_email_address() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter valid password")
+public void user_enter_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on Log In button")
+public void user_clicks_on_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be able see {string}")
+public void user_should_be_able_see(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+TestRunner.runScenario["User should not be able to login with invalid email and password", "Optional[Login Feature]"](4)  Time elapsed: 2.21 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user in TalentTEK Homepage' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user in TalentTEK Homepage")
+public void user_in_talent_tek_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter invalid email address")
+public void user_enter_invalid_email_address() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("user enter invalid password")
+public void user_enter_invalid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on Log In button")
+public void user_clicks_on_log_in_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should be able see {string}")
+public void user_should_be_able_see(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
