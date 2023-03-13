@@ -1,7 +1,7 @@
 
 Feature: Login Feature
 
-  @regression @smoke @sanity
+  @regression @smoke @sanity @hb
   Scenario: User should be able to login with valid email and password
     Given user in TalentTEK Homepage
     And user enter valid email address
