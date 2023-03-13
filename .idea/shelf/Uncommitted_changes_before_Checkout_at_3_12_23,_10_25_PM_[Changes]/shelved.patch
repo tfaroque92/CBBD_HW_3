@@ -1,0 +1,19 @@
+Index: src/test/java/features/login.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nFeature: Login Feature\n\n  @regression @smoke @sanity @hb\n  Scenario: User should be able to login with valid email and password\n    Given user in TalentTEK Homepage\n    And user enter valid email address\n    And user enter valid password\n    When user clicks on Log In button\n    Then user should be able to successfully login\n\n  @smoke @hb\n  Scenario: User should not be able to login with valid email and invalid password\n    Given user in TalentTEK Homepage\n    And user enter valid email address\n    And user enter invalid password\n    When user clicks on Log In button\n    Then user should be able see \"You have entered an incorrect email or student Id.\"\n\n  Scenario: User should not be able to login with invalid email and valid password\n    Given user in TalentTEK Homepage\n    And user enter invalid email address\n    And user enter valid password\n    When user clicks on Log In button\n    Then user should be able see \"You have entered an incorrect email or student\"\n\n  Scenario: User should not be able to login with invalid email and password\n    Given user in TalentTEK Homepage\n    And user enter invalid email address\n    And user enter invalid password\n    When user clicks on Log In button\n    Then user should be able see \"You have entered an incorrect email or student Id.\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/features/login.feature b/src/test/java/features/login.feature
+--- a/src/test/java/features/login.feature	(revision 3a70529577fcfc49b70c5adfab0477c62b429172)
++++ b/src/test/java/features/login.feature	(date 1678674117150)
+@@ -1,7 +1,7 @@
+ 
+ Feature: Login Feature
+ 
+-  @regression @smoke @sanity @hb
++  @regression @smoke @sanity
+   Scenario: User should be able to login with valid email and password
+     Given user in TalentTEK Homepage
+     And user enter valid email address
